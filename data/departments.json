@@ -1,0 +1,44 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "Computer Science",
+    "phone": "+90-212-555-0101",
+    "managerId": "660e8400-e29b-41d4-a716-446655440001",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "name": "Software Engineering",
+    "phone": "+90-212-555-0102",
+    "managerId": "660e8400-e29b-41d4-a716-446655440002",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "name": "Data Science",
+    "phone": "+90-212-555-0103",
+    "managerId": "660e8400-e29b-41d4-a716-446655440003",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "name": "Electrical Engineering",
+    "phone": "+90-212-555-0104",
+    "managerId": "660e8400-e29b-41d4-a716-446655440004",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "name": "Mathematics",
+    "phone": "+90-212-555-0105",
+    "managerId": "660e8400-e29b-41d4-a716-446655440005",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "name": "Physics",
+    "phone": "+90-212-555-0106",
+    "managerId": "660e8400-e29b-41d4-a716-446655440006",
+    "parentDepartmentId": null
+  }
+]
