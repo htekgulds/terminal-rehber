@@ -40,5 +40,355 @@
     "phone": "+90-212-555-0106",
     "managerId": "660e8400-e29b-41d4-a716-446655440006",
     "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "name": "Mechanical Engineering",
+    "phone": "+90-212-555-0107",
+    "managerId": "660e8400-e29b-41d4-a716-446655440011",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "name": "Chemical Engineering",
+    "phone": "+90-212-555-0108",
+    "managerId": "660e8400-e29b-41d4-a716-446655440012",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "name": "Civil Engineering",
+    "phone": "+90-212-555-0109",
+    "managerId": "660e8400-e29b-41d4-a716-446655440013",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "name": "Biomedical Engineering",
+    "phone": "+90-212-555-0110",
+    "managerId": "660e8400-e29b-41d4-a716-446655440014",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "name": "Industrial Engineering",
+    "phone": "+90-212-555-0111",
+    "managerId": "660e8400-e29b-41d4-a716-446655440015",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "name": "Aerospace Engineering",
+    "phone": "+90-212-555-0112",
+    "managerId": "660e8400-e29b-41d4-a716-446655440016",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "name": "Environmental Engineering",
+    "phone": "+90-212-555-0113",
+    "managerId": "660e8400-e29b-41d4-a716-446655440017",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440013",
+    "name": "Materials Science",
+    "phone": "+90-212-555-0114",
+    "managerId": "660e8400-e29b-41d4-a716-446655440018",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440014",
+    "name": "Chemistry",
+    "phone": "+90-212-555-0115",
+    "managerId": "660e8400-e29b-41d4-a716-446655440019",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440015",
+    "name": "Biology",
+    "phone": "+90-212-555-0116",
+    "managerId": "660e8400-e29b-41d4-a716-446655440020",
+    "parentDepartmentId": null
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440016",
+    "name": "Biochemistry",
+    "phone": "+90-212-555-0117",
+    "managerId": "660e8400-e29b-41d4-a716-446655440021",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440015"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440017",
+    "name": "Molecular Biology",
+    "phone": "+90-212-555-0118",
+    "managerId": "660e8400-e29b-41d4-a716-446655440022",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440015"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440018",
+    "name": "Organic Chemistry",
+    "phone": "+90-212-555-0119",
+    "managerId": "660e8400-e29b-41d4-a716-446655440023",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440014"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440019",
+    "name": "Inorganic Chemistry",
+    "phone": "+90-212-555-0120",
+    "managerId": "660e8400-e29b-41d4-a716-446655440024",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440014"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440020",
+    "name": "Artificial Intelligence",
+    "phone": "+90-212-555-0121",
+    "managerId": "660e8400-e29b-41d4-a716-446655440025",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440021",
+    "name": "Cybersecurity",
+    "phone": "+90-212-555-0122",
+    "managerId": "660e8400-e29b-41d4-a716-446655440026",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440022",
+    "name": "Network Engineering",
+    "phone": "+90-212-555-0123",
+    "managerId": "660e8400-e29b-41d4-a716-446655440027",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440001"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440023",
+    "name": "Mobile Development",
+    "phone": "+90-212-555-0124",
+    "managerId": "660e8400-e29b-41d4-a716-446655440028",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440001"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440024",
+    "name": "Web Development",
+    "phone": "+90-212-555-0125",
+    "managerId": "660e8400-e29b-41d4-a716-446655440029",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440001"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440025",
+    "name": "Machine Learning",
+    "phone": "+90-212-555-0126",
+    "managerId": "660e8400-e29b-41d4-a716-446655440030",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440002"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440026",
+    "name": "Big Data Analytics",
+    "phone": "+90-212-555-0127",
+    "managerId": "660e8400-e29b-41d4-a716-446655440031",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440002"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440027",
+    "name": "Power Systems",
+    "phone": "+90-212-555-0128",
+    "managerId": "660e8400-e29b-41d4-a716-446655440032",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440003"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440028",
+    "name": "Electronics",
+    "phone": "+90-212-555-0129",
+    "managerId": "660e8400-e29b-41d4-a716-446655440033",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440003"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440029",
+    "name": "Control Systems",
+    "phone": "+90-212-555-0130",
+    "managerId": "660e8400-e29b-41d4-a716-446655440034",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440003"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440030",
+    "name": "Applied Mathematics",
+    "phone": "+90-212-555-0131",
+    "managerId": "660e8400-e29b-41d4-a716-446655440035",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440004"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440031",
+    "name": "Statistics",
+    "phone": "+90-212-555-0132",
+    "managerId": "660e8400-e29b-41d4-a716-446655440036",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440004"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440032",
+    "name": "Theoretical Physics",
+    "phone": "+90-212-555-0133",
+    "managerId": "660e8400-e29b-41d4-a716-446655440037",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440005"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440033",
+    "name": "Applied Physics",
+    "phone": "+90-212-555-0134",
+    "managerId": "660e8400-e29b-41d4-a716-446655440038",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440005"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440034",
+    "name": "Thermodynamics",
+    "phone": "+90-212-555-0135",
+    "managerId": "660e8400-e29b-41d4-a716-446655440039",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440006"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440035",
+    "name": "Fluid Mechanics",
+    "phone": "+90-212-555-0136",
+    "managerId": "660e8400-e29b-41d4-a716-446655440040",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440006"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440036",
+    "name": "Process Engineering",
+    "phone": "+90-212-555-0137",
+    "managerId": "660e8400-e29b-41d4-a716-446655440041",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440007"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440037",
+    "name": "Reaction Engineering",
+    "phone": "+90-212-555-0138",
+    "managerId": "660e8400-e29b-41d4-a716-446655440042",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440007"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440038",
+    "name": "Structural Engineering",
+    "phone": "+90-212-555-0139",
+    "managerId": "660e8400-e29b-41d4-a716-446655440043",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440008"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440039",
+    "name": "Geotechnical Engineering",
+    "phone": "+90-212-555-0140",
+    "managerId": "660e8400-e29b-41d4-a716-446655440044",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440008"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440040",
+    "name": "Medical Devices",
+    "phone": "+90-212-555-0141",
+    "managerId": "660e8400-e29b-41d4-a716-446655440045",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440009"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440041",
+    "name": "Biomechanics",
+    "phone": "+90-212-555-0142",
+    "managerId": "660e8400-e29b-41d4-a716-446655440046",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440009"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440042",
+    "name": "Operations Research",
+    "phone": "+90-212-555-0143",
+    "managerId": "660e8400-e29b-41d4-a716-446655440047",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440010"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440043",
+    "name": "Quality Control",
+    "phone": "+90-212-555-0144",
+    "managerId": "660e8400-e29b-41d4-a716-446655440048",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440010"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440044",
+    "name": "Aerodynamics",
+    "phone": "+90-212-555-0145",
+    "managerId": "660e8400-e29b-41d4-a716-446655440049",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440011"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440045",
+    "name": "Propulsion Systems",
+    "phone": "+90-212-555-0146",
+    "managerId": "660e8400-e29b-41d4-a716-446655440050",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440011"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440046",
+    "name": "Water Treatment",
+    "phone": "+90-212-555-0147",
+    "managerId": "660e8400-e29b-41d4-a716-446655440051",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440012"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440047",
+    "name": "Air Quality",
+    "phone": "+90-212-555-0148",
+    "managerId": "660e8400-e29b-41d4-a716-446655440052",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440012"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440048",
+    "name": "Metallurgy",
+    "phone": "+90-212-555-0149",
+    "managerId": "660e8400-e29b-41d4-a716-446655440053",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440013"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440049",
+    "name": "Polymers",
+    "phone": "+90-212-555-0150",
+    "managerId": "660e8400-e29b-41d4-a716-446655440054",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440013"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440050",
+    "name": "Nanotechnology",
+    "phone": "+90-212-555-0151",
+    "managerId": "660e8400-e29b-41d4-a716-446655440055",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440013"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440051",
+    "name": "Robotics",
+    "phone": "+90-212-555-0152",
+    "managerId": "660e8400-e29b-41d4-a716-446655440056",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440052",
+    "name": "Computer Graphics",
+    "phone": "+90-212-555-0153",
+    "managerId": "660e8400-e29b-41d4-a716-446655440057",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440053",
+    "name": "Database Systems",
+    "phone": "+90-212-555-0154",
+    "managerId": "660e8400-e29b-41d4-a716-446655440058",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440001"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440054",
+    "name": "Cloud Computing",
+    "phone": "+90-212-555-0155",
+    "managerId": "660e8400-e29b-41d4-a716-446655440059",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440001"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440055",
+    "name": "DevOps",
+    "phone": "+90-212-555-0156",
+    "managerId": "660e8400-e29b-41d4-a716-446655440060",
+    "parentDepartmentId": "550e8400-e29b-41d4-a716-446655440001"
   }
 ]
