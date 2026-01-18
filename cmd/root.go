@@ -3,9 +3,12 @@ package cmd
 import (
 	"context"
 	"fmt"
+	"log/slog"
 	"os"
 
+	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/fang"
+	"github.com/htekgulds/terminal-rehber/pkg/tui"
 	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -20,6 +23,21 @@ var rootCmd = &cobra.Command{
 	Use:   cmdName,
 	Short: "Terminal Rehber",
 	Long:  "Terminalde çalışan telefon rehberi uygulaması",
+	RunE: func(cmd *cobra.Command, args []string) error {
+		log, err := os.Create("output.log")
+		if err != nil {
+			panic(err)
+		}
+		defer log.Close()
+		slog.SetDefault(slog.New(slog.NewTextHandler(log, &slog.HandlerOptions{})))
+
+		model := tui.NewModel()
+		if _, err := tea.NewProgram(model, tea.WithAltScreen()).Run(); err != nil {
+			fmt.Println("Error running program:", err)
+			os.Exit(1)
+		}
+		return nil
+	},
 }
 
 func Execute() {
