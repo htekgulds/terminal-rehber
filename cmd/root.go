@@ -68,7 +68,7 @@ func initConfig() {
 
 	_ = godotenv.Load()
 	viper.AutomaticEnv()        // read env vars that match
-	viper.SetEnvPrefix(cmdName) // BUBBLES_ARGNAME=...
+	viper.SetEnvPrefix(cmdName) // REHBER_ARGNAME=...
 
 	if err := viper.ReadInConfig(); err == nil {
 		fmt.Println("Using config file:", viper.ConfigFileUsed())
