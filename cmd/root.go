@@ -31,7 +31,11 @@ var rootCmd = &cobra.Command{
 		defer log.Close()
 		slog.SetDefault(slog.New(slog.NewTextHandler(log, &slog.HandlerOptions{})))
 
-		model := tui.NewModel()
+		model, err := tui.NewModel()
+		if err != nil {
+			fmt.Println("Error creating model:", err)
+			os.Exit(1)
+		}
 		if _, err := tea.NewProgram(model, tea.WithAltScreen()).Run(); err != nil {
 			fmt.Println("Error running program:", err)
 			os.Exit(1)
