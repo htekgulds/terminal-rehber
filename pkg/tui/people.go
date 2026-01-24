@@ -31,8 +31,7 @@ func NewPeopleModel() *PeopleModel {
 
 	// Define table columns
 	columns := []table.Column{
-		{Title: "Name", Width: 25},
-		{Title: "Prefix", Width: 12},
+		{Title: "Name", Width: 35},
 		{Title: "Title", Width: 25},
 		{Title: "Room", Width: 10},
 		{Title: "Phone", Width: 18},
@@ -42,14 +41,14 @@ func NewPeopleModel() *PeopleModel {
 	// Convert people to table rows
 	rows := make([]table.Row, len(people))
 	for i, person := range people {
-		prefix := ""
-		if person.Prefix != nil {
-			prefix = *person.Prefix
-		}
 		fullName := fmt.Sprintf("%s %s", person.FirstName, person.LastName)
+		// Combine prefix and name
+		nameWithPrefix := fullName
+		if person.Prefix != nil && *person.Prefix != "" {
+			nameWithPrefix = fmt.Sprintf("%s %s", *person.Prefix, fullName)
+		}
 		rows[i] = table.Row{
-			fullName,
-			prefix,
+			nameWithPrefix,
 			person.Title,
 			person.Room,
 			person.Phone,
